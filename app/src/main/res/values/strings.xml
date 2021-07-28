@@ -2,13 +2,23 @@
     <string name="app_name">FinalPresentation </string>
     <string name="hello_blank_fragment">Hello blank fragment </string>
 
-    <!-- Scrollable -->
+    <!-- Presentation -->
     <string name="presentation_intro"> Welcome to the [POS]seidon team! </string>
+    <string name="presentation_Android"> Android! </string>
+    <string name="presentation_Kotlin"> Kotlin! </string>
+    <string name="presentation_XML"> XML! </string>
+    <string name="presentation_binding"> View Binding! </string>
     <string name="presentation_git"> Git! </string>
+    <string name="presentation_jira_agile"> Jira and Agile Development! </string>
+    <string name="presentation_architecture"> MVVM Architecture! </string>
+    <string name="presentation_pos"> The POS itself! </string>
     <string name="learn"> Learn more!</string>
 
     <!-- Details -->
-    <string name="presentation_intro_details"> For the past 2 months, I have been given the opportunity to be a
+    <string name="presentation_intro_details"> For the past 2 months and a half, I have been given the opportunity to be a
         part of the POS team and get a first look at our the new system for Taco Bell. </string>
-    <string name="presentation_git_details">Here I will talk about git! </string>
+    <string name="presentation_Android_details"> Android! </string>
+    <string name="presentation_git_details"><li>•Git intro!</li>
+        \n•<li>Item two</li>
+        \n•<li>Item three</li> </string>
 </resources>

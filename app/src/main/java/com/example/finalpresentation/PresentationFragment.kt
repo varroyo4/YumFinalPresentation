@@ -7,16 +7,16 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.finalpresentation.databinding.FragmentScrollableBinding
+import com.example.finalpresentation.databinding.FragmentPresentationBinding
 
 /**
  * A simple [Fragment] subclass.
  * Use the [PresentationFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class PresentationFragment : Fragment(R.layout.fragment_scrollable) {
+class PresentationFragment : Fragment(R.layout.fragment_presentation) {
 
-    private lateinit var binding : FragmentScrollableBinding
+    private lateinit var binding : FragmentPresentationBinding
 
     private lateinit var recyclerView: RecyclerView
 
@@ -27,7 +27,7 @@ class PresentationFragment : Fragment(R.layout.fragment_scrollable) {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         // Retrieve and inflate the layout for this fragment
-        binding = FragmentScrollableBinding.inflate(inflater, container, false)
+        binding = FragmentPresentationBinding.inflate(inflater, container, false)
         return binding.root
     }
 

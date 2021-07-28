@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -11,28 +12,35 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/scrollable_image"
+            android:id="@+id/presenter_image"
             android:layout_width="match_parent"
             android:layout_height="450dp"
+            android:background="#050505"
             android:importantForAccessibility="no"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true" />
 
         <TextView
-            android:id="@+id/scrollable_title"
+            android:id="@+id/presenter_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:padding="16dp"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            tools:text="hello"
-            android:gravity="center"/>
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:text="hello world" />
 
         <Button
-            android:id="@+id/scrollable_button"
+            android:id="@+id/presenter_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
+            android:text="@string/learn"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            android:text="@string/learn" />
+            android:textStyle="bold"
+            android:typeface="monospace"
+            app:backgroundTint="@color/black" />
 
 
     </LinearLayout>

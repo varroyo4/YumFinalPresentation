@@ -45,14 +45,10 @@ class DetailsFragment : Fragment() {
         val textView: TextView = view.findViewById(R.id.details_title)
         val imageView: ImageView = view.findViewById(R.id.details_image)
 
-        when(lessonImageId) {
-            lessonsArr[0].imageResourceId -> {
-                textView.text = context?.resources?.getString(detailsArr[0].stringResourceId) ?: return
-                imageView.setImageResource(detailsArr[0].imageResourceId)
-            }
-            lessonsArr[1].imageResourceId -> {
-                textView.text = context?.resources?.getString(detailsArr[1].stringResourceId) ?: return
-                imageView.setImageResource(detailsArr[1].imageResourceId)
+        for((index, iterator) in lessonsArr.withIndex()) {
+            if(lessonImageId == iterator.imageResourceId){
+                textView.text = context?.resources?.getString(detailsArr[index].stringResourceId) ?: return
+                imageView.setImageResource(detailsArr[index].imageResourceId)
             }
         }
 

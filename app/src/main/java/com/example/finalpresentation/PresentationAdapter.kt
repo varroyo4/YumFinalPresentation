@@ -19,9 +19,9 @@ class PresentationAdapter(
      * Provides a reference for the views needed to display items in your list.
      */
     class ScrollableViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.scrollable_title)
-        val imageView: ImageView = view.findViewById(R.id.scrollable_image)
-        val button: Button = view.findViewById(R.id.scrollable_button)
+        val textView: TextView = view.findViewById(R.id.presenter_title)
+        val imageView: ImageView = view.findViewById(R.id.presenter_image)
+        val button: Button = view.findViewById(R.id.presenter_button)
     }
 
     /**

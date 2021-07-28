@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">FinalPresentation </string>
     <string name="hello_blank_fragment">Hello blank fragment </string>
+
+    <!-- Scrollable -->
     <string name="presentation_intro"> Welcome to the [POS]seidon team! </string>
     <string name="presentation_git"> Git! </string>
     <string name="learn"> Learn more!</string>
+
+    <!-- Details -->
+    <string name="presentation_intro_details"> For the past 2 months, I have been given the opportunity to be a
+        part of the POS team and get a first look at our the new system for Taco Bell. </string>
+    <string name="presentation_git_details">Here I will talk about git! </string>
 </resources>

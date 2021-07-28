@@ -10,10 +10,10 @@ import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 
-class ScrollableAdapter(
+class PresentationAdapter(
     private val context: Context,
-    private val dataset: List<Data>
-) : RecyclerView.Adapter<ScrollableAdapter.ScrollableViewHolder>() {
+    private val lessonsArr: List<LessonsData>
+) : RecyclerView.Adapter<PresentationAdapter.ScrollableViewHolder>() {
 
     /**
      * Provides a reference for the views needed to display items in your list.
@@ -40,20 +40,20 @@ class ScrollableAdapter(
      * Replaces the content of an existing view with new data
      */
     override fun onBindViewHolder(holder: ScrollableViewHolder, position: Int) {
-        val item = dataset[position]
-        holder.textView.text = context.resources.getString(item.stringResourceId)
-        holder.imageView.setImageResource(item.imageResourceId)
+        val currentLesson = lessonsArr[position]
+        holder.textView.text = context.resources.getString(currentLesson.stringResourceId)
+        holder.imageView.setImageResource(currentLesson.imageResourceId)
         // Assigns a [OnClickListener] to the button contained in the [ViewHolder]
         holder.button.setOnClickListener {
             // Create an action from WordList to DetailList
             // using the required arguments
-            val action = ScrollableFragmentDirections.actionScrollableFragmentToDetailsFragment()
+            val action = PresentationFragmentDirections.actionScrollableFragmentToDetailsFragment(lessonImage = currentLesson.imageResourceId, lessonText = currentLesson.stringResourceId)
             // Navigate using that action
             holder.view.findNavController().navigate(action)
         }
     }
 
     override fun getItemCount(): Int {
-        return dataset.size
+        return lessonsArr.size
     }
 }

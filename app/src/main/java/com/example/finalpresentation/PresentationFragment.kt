@@ -11,10 +11,10 @@ import com.example.finalpresentation.databinding.FragmentScrollableBinding
 
 /**
  * A simple [Fragment] subclass.
- * Use the [ScrollableFragment.newInstance] factory method to
+ * Use the [PresentationFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ScrollableFragment : Fragment(R.layout.fragment_scrollable) {
+class PresentationFragment : Fragment(R.layout.fragment_scrollable) {
 
     private lateinit var binding : FragmentScrollableBinding
 
@@ -25,10 +25,7 @@ class ScrollableFragment : Fragment(R.layout.fragment_scrollable) {
         setHasOptionsMenu(true)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         // Retrieve and inflate the layout for this fragment
         binding = FragmentScrollableBinding.inflate(inflater, container, false)
         return binding.root
@@ -37,9 +34,9 @@ class ScrollableFragment : Fragment(R.layout.fragment_scrollable) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         recyclerView = binding.scrollableRecycler
 
-        val myDataset = PresentationData().loadPresentation()
+        val myDataset = LessonsPresenter().loadLessons()
         recyclerView.layoutManager = LinearLayoutManager(context)
-        recyclerView.adapter = context?.let { ScrollableAdapter(it, myDataset) }
+        recyclerView.adapter = context?.let { PresentationAdapter(it, myDataset) }
 
     }
 

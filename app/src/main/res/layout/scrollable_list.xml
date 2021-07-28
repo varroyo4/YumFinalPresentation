@@ -13,7 +13,7 @@
         <ImageView
             android:id="@+id/scrollable_image"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="450dp"
             android:importantForAccessibility="no"
             android:scaleType="centerCrop" />
 
@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            tools:text="hello" />
+            tools:text="hello"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/scrollable_button"

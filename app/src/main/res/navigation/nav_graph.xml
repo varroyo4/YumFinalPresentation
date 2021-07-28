@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/scrollableFragment"
-        android:name="com.example.finalpresentation.ScrollableFragment"
+        android:name="com.example.finalpresentation.PresentationFragment"
         android:label="Welcome!">
         <action
             android:id="@+id/action_scrollableFragment_to_detailsFragment"
@@ -15,9 +15,15 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.example.finalpresentation.details"
+        android:name="com.example.finalpresentation.DetailsFragment"
         android:label="More details!"
         tools:layout="@layout/fragment_details">
 
+        <argument
+            android:name="lessonImage"
+            app:argType="reference" />
+        <argument
+            android:name="lessonText"
+            app:argType="reference" />
     </fragment>
 </navigation>

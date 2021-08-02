@@ -5,6 +5,7 @@ class LessonsProvider {
     fun loadLessons(): List<Lessons> {
         return listOf(
             Lessons(R.string.presentation_intro, R.drawable.android_half_trident),
+            Lessons(R.string.presentation_self_intro, R.drawable.silhouette),
             Lessons(R.string.presentation_android, R.drawable.android_present),
             Lessons(R.string.presentation_kotlin, R.drawable.kotlin),
             Lessons(R.string.presentation_xml, R.drawable.xml_presentation),

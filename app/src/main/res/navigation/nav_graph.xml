@@ -17,7 +17,7 @@
         android:id="@+id/detailsFragment"
         android:name="com.example.finalpresentation.DetailsFragment"
         android:label="More details!"
-        tools:layout="@layout/fragment_details">
+        tools:layout="@layout/details_recyclerview">
 
         <argument
             android:name="lessonImage"

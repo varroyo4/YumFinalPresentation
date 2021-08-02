@@ -4,6 +4,7 @@
     <dimen name="fragment_details_margin">8dp</dimen>
     <dimen name="fragment_details_height">200dp</dimen>
     <dimen name="fragment_details_padding">16dp</dimen>
+    <dimen name="fragment_details_text">20sp</dimen>
 
     <dimen name="fragment_presentation_padding">16dp</dimen>
 

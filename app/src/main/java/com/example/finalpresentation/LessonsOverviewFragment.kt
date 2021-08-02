@@ -21,7 +21,7 @@ class LessonsOverviewFragment : Fragment(R.layout.lessons_recyclerview) {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        recyclerView = binding.scrollableRecycler
+        recyclerView = binding.lessonsRecycler
         val lessons = LessonsProvider().loadLessons()
         recyclerView.layoutManager = LinearLayoutManager(context)
         recyclerView.adapter = context?.let { LessonsOverviewAdapter(it, lessons) }

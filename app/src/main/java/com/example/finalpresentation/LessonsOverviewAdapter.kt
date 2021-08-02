@@ -15,7 +15,7 @@ class LessonsOverviewAdapter(
     private val lessonsArr: List<Lessons>
 ) : RecyclerView.Adapter<LessonsOverviewAdapter.LessonViewHolder>() {
 
-    lateinit var binding: ItemLessonBinding
+    private lateinit var binding: ItemLessonBinding
 
     class LessonViewHolder(private val binding: ItemLessonBinding) : RecyclerView.ViewHolder(binding.root) {
         val textView: TextView = binding.lessonTitle
@@ -24,9 +24,6 @@ class LessonsOverviewAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LessonViewHolder {
-//        val layout = LayoutInflater
-//            .from(parent.context)
-//            .inflate(R.layout.item_lesson, parent, false)
         binding = ItemLessonBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return LessonViewHolder(binding)
     }

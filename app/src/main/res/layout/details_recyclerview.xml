@@ -21,8 +21,16 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/fragment_details_padding"
         android:textAppearance="?attr/textAppearanceHeadline6"
-        android:typeface="monospace"
+        android:textSize="@dimen/fragment_details_text"
+        android:typeface="normal"
         tools:text="hello" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/details_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:clipToPadding="false"
+        android:padding="@dimen/fragment_details_padding" />
 
 </LinearLayout>
 

@@ -4,6 +4,7 @@
 
     <!-- Presentation -->
     <string name="presentation_intro"> Welcome to the [POS]seidon team!</string>
+    <string name="presentation_self_intro"> Who am I?</string>
     <string name="presentation_android"> Android!</string>
     <string name="presentation_kotlin"> Kotlin!</string>
     <string name="presentation_xml"> XML!</string>
@@ -15,20 +16,107 @@
     <string name="learn"> Learn more!</string>
 
     <!-- Details -->
+    <string name="title">Title</string>
+
+
+
     <string name="presentation_intro_details">
         <ul>
-            <li>•For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and get a first look at our the new system for Taco Bell.</li>
-            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!</li>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
             \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
         </ul>
     </string>
 
-    <string name="presentation_android_details"> Android! </string>
+    <string name="presentation_self_intro_details">
+        <ul>
+            <li>My name is Valente Arroyo\n</li>
+            \n•<li>I attend the University of Wisconsin-Madison\n</li>
+                <li>I will be going into my senior year, graduating Fall 2022.\n</li>
+            \n•<li>I study computer Engineering and Computer Science.\n</li>
+            \n•<li>I live in Chicago!\n</li>
+            \n•<li>I love to go the gym, play on a Esports Team for a video game called Valorant and love to play guitar here and there!\n</li>
+        </ul>
+    </string>
+
+    <string name="presentation_android_details">
+        <ul>
+            <li>Introduction to Android!\n</li>
+            \n•<li>What is android?\n</li>
+                        \n<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
+            \n•<li>What can we build with android?\n</li>
+            \n•<li>How to get started on android!</li>
+        </ul>
+    </string>
+
+    <string name="presentation_kotlin_details">
+        <ul>
+            <li>Introduction to Kotlin!\n</li>
+            \n•<li>What is Kotlin?\n</li>
+            \n•<li>Is there any prior experience needed for Kotlin?\n</li>
+            \n•<li>How can I get started on Kotlin?.</li>
+        </ul>
+    </string>
+
+    <string name="presentation_xml_details">
+        <ul>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+        </ul>
+    </string>
+
+    <string name="presentation_binding_details">
+        <ul>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+        </ul>
+    </string>
+
     <string name="presentation_git_details">
         <ul>
-            <li>•Git intro!</li>
-            \n•<li>Item two</li>
-            \n•<li>Item three</li>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+        </ul>
+    </string>
+
+    <string name="presentation_jira_agile_details">
+        <ul>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+        </ul>
+    </string>
+
+    <string name="presentation_architecture_details">
+        <ul>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+        </ul>
+    </string>
+
+    <string name="presentation_pos_details">
+        <ul>
+            <li>Introduction to my POS internship!\n</li>
+            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
+                get a first look at our the new system for Taco Bell.\n</li>
+            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
+            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
         </ul>
     </string>
 

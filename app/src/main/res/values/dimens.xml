@@ -1,3 +1,13 @@
 <resources>
     <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="fragment_details_margin">8dp</dimen>
+    <dimen name="fragment_details_height">200dp</dimen>
+    <dimen name="fragment_details_padding">16dp</dimen>
+
+    <dimen name="fragment_presentation_padding">16dp</dimen>
+
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="item_height">450dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
 </resources>

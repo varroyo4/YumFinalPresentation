@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PresentationFragment">
+    tools:context=".LessonsOverviewFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/scrollable_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
-        android:padding="16dp" />
+        android:padding="@dimen/fragment_presentation_padding" />
 
 </FrameLayout>

@@ -3,25 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".DetailsFragment"
-    android:orientation="vertical">
+    android:layout_margin="@dimen/fragment_details_margin"
+    android:orientation="vertical"
+    tools:context=".DetailsFragment">
 
+    <ImageView
+        android:id="@+id/details_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_details_height"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside" />
 
-        <ImageView
-            android:id="@+id/details_image"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:importantForAccessibility="no"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true" />
+    <TextView
+        android:id="@+id/details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fragment_details_padding"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:typeface="monospace"
+        tools:text="hello" />
 
-        <TextView
-            android:id="@+id/details_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:typeface="monospace"
-            android:textAppearance="?attr/textAppearanceHeadline6"
-            tools:text="hello" />
-    </LinearLayout>
+</LinearLayout>
 

@@ -12,7 +12,7 @@ import com.example.finalpresentation.databinding.ItemLessonBinding
 
 class LessonsOverviewAdapter(
     private val context: Context,
-    private val lessonsArr: List<Lessons>
+    private val lessonsArr: List<Lesson>
 ) : RecyclerView.Adapter<LessonsOverviewAdapter.LessonViewHolder>() {
 
     private lateinit var binding: ItemLessonBinding
@@ -30,13 +30,12 @@ class LessonsOverviewAdapter(
 
     override fun onBindViewHolder(holder: LessonViewHolder, position: Int) {
         val currentLesson = lessonsArr[position]
-        holder.textView.text = context.resources.getString(currentLesson.stringResourceId)
-        holder.imageView.setImageResource(currentLesson.imageResourceId)
+        holder.textView.text = context.resources.getString(currentLesson.lessonCaption)
+        holder.imageView.setImageResource(currentLesson.lessonImage)
         holder.button.setOnClickListener {
             val action =
                 LessonsOverviewFragmentDirections.actionScrollableFragmentToDetailsFragment(
-                    lessonImage = currentLesson.imageResourceId,
-                    lessonText = currentLesson.stringResourceId
+                    lesson = currentLesson
                 )
             holder.itemView.findNavController().navigate(action)
         }

@@ -16,19 +16,14 @@ class DetailsFragment : Fragment() {
 
     private lateinit var binding: DetailsRecyclerviewBinding
 
-    private val lessonsArr = LessonsProvider().loadLessons()
-    private val detailsArr = DetailsProvider().loadDetails()
-
-    private var lessonImageId by Delegates.notNull<Int>()
-    private var lessonTextId by Delegates.notNull<Int>()
+    private lateinit var lesson : Lesson
 
     private lateinit var recyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            lessonImageId = it.get("lessonImage") as Int
-            lessonTextId = it.get("lessonText") as Int
+            lesson = it.get("lesson") as Lesson
         }
     }
 
@@ -40,18 +35,11 @@ class DetailsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val textView: TextView = binding.detailsTitle
         val imageView: ImageView = binding.detailsImage
-        for ((index, iterator) in lessonsArr.withIndex()) {
-            if (lessonImageId == iterator.imageResourceId) {
-                textView.text =
-//                    context?.resources?.getString(detailsArr[index].stringResourceId) ?: return
-                    context?.resources?.getString(R.string.title) ?: return
-                imageView.setImageResource(detailsArr[index].imageResourceId)
-            }
-        }
+
         recyclerView = binding.detailsRecycler
         recyclerView.layoutManager = LinearLayoutManager(context)
-        recyclerView.adapter = context?.let { DetailsAdapter(it) }
-//        textView.text = context?.resources?.getString(lessonTextId)
-//        imageView.setImageResource(lessonImageId)
+        recyclerView.adapter = context?.let { DetailsAdapter(it, lesson.lessonQuestions) }
+        textView.text = context?.resources?.getString(lesson.lessonCaption)
+        imageView.setImageResource(lesson.detailImage)
     }
 }

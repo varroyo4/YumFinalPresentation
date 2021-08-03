@@ -8,7 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.finalpresentation.databinding.ItemQuestionsAnswersBinding
 
 class DetailsAdapter(
-    private val context: Context
+    private val context: Context,
+    private val lessonQuestionAnswers : List<LessonDetailQuestion>
 ) : RecyclerView.Adapter<DetailsAdapter.DetailViewHolder>() {
 
     private lateinit var binding: ItemQuestionsAnswersBinding
@@ -24,10 +25,11 @@ class DetailsAdapter(
     }
 
     override fun onBindViewHolder(holder: DetailViewHolder, position: Int) {
-        holder.question.text = context.resources.getString(R.string.title)
-        holder.answer.text = context.resources.getString(R.string.title)
+        val currentQuestionAnswer = lessonQuestionAnswers[position]
+        holder.question.text = context.resources.getString(currentQuestionAnswer.question)
+        holder.answer.text = context.resources.getString(currentQuestionAnswer.answer)
     }
 
-    override fun getItemCount() = 0
+    override fun getItemCount() = lessonQuestionAnswers.size
 
 }

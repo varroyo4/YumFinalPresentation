@@ -20,10 +20,7 @@
         tools:layout="@layout/details_recyclerview">
 
         <argument
-            android:name="lessonImage"
-            app:argType="reference" />
-        <argument
-            android:name="lessonText"
-            app:argType="reference" />
+            android:name="lesson"
+            app:argType="com.example.finalpresentation.Lesson" />
     </fragment>
 </navigation>

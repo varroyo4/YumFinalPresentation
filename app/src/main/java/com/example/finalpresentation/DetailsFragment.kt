@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.finalpresentation.databinding.DetailsRecyclerviewBinding
-import kotlin.properties.Delegates
 
 class DetailsFragment : Fragment() {
 
@@ -39,7 +38,7 @@ class DetailsFragment : Fragment() {
         recyclerView = binding.detailsRecycler
         recyclerView.layoutManager = LinearLayoutManager(context)
         recyclerView.adapter = context?.let { DetailsAdapter(it, lesson.lessonQuestions) }
-        textView.text = context?.resources?.getString(lesson.lessonCaption)
+        textView.text = context?.resources?.getString(lesson.lessonTitle)
         imageView.setImageResource(lesson.detailImage)
     }
 }

@@ -2,6 +2,7 @@
     <string name="app_name">FinalPresentation </string>
     <string name="hello_blank_fragment">Hello blank fragment </string>
 
+    <!-- intro about me as slide, project, going over what im going to go over, maybe its on github and power-->
     <!-- Presentation -->
     <string name="presentation_intro"> Welcome to the [POS]seidon team!</string>
     <string name="presentation_self_intro"> Who am I?</string>
@@ -17,12 +18,9 @@
 
     <!-- Details -->
     <string name="title">Title</string>
-
-
-
-    <string name="presentation_intro_details">
+    <string name="intro_title">Introduction to my POS internship!</string>
+    <string name="intro_answer">
         <ul>
-            <li>Introduction to my POS internship!\n</li>
             \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
                 get a first look at our the new system for Taco Bell.\n</li>
             \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
@@ -30,10 +28,10 @@
         </ul>
     </string>
 
-    <string name="presentation_self_intro_details">
+    <string name="self_intro_title">My name is Valente Arroyo</string>
+    <string name="self_intro_answer">
         <ul>
-            <li>My name is Valente Arroyo\n</li>
-            \n•<li>I attend the University of Wisconsin-Madison\n</li>
+            \n•<li>I attend the University of Wisconsin-Madison.\n</li>
                 <li>I will be going into my senior year, graduating Fall 2022.\n</li>
             \n•<li>I study computer Engineering and Computer Science.\n</li>
             \n•<li>I live in Chicago!\n</li>
@@ -41,22 +39,64 @@
         </ul>
     </string>
 
-    <string name="presentation_android_details">
+    <!-- https://www.androidauthority.com/what-is-android-328076/ -->
+    <string name="android_q_one">What is android?</string>
+    <string name="android_a_one">
         <ul>
-            <li>Introduction to Android!\n</li>
+            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
+            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources\n</li>
+            \n•<li>Last bullet</li>
+        </ul>
+    </string>
+    <string name="android_q_two">What can we build with android?</string>
+    <string name="android_a_two">
+        <ul>
+            \n•<li>Billions of devices around the world are being powered by Android, from smartphones, watches, tablets and more!\n</li>
+            \n•<li>Other bullet\n</li>
+            \n•<li>Last bullet</li>
+        </ul>
+    </string>
+    <string name="android_q_three">How to get started on android!</string>
+    <string name="android_a_three">
+        <ul>
+            \n•<li>You can get started on using the Android OS by installing Android Studio, an IDE that allows you to use kotlin to code and use android.\n</li>
+            \n•<li>Other bullet\n</li>
+            \n•<li>Last bullet</li>
+        </ul>
+    </string>
+
+
+    <string name="kotlin_title">
+        <ul>
+            <li>Introduction to Kotlin!\n</li>
             \n•<li>What is android?\n</li>
                         \n<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
             \n•<li>What can we build with android?\n</li>
             \n•<li>How to get started on android!</li>
         </ul>
     </string>
-
-    <string name="presentation_kotlin_details">
+    <string name="kotlin_q_one">What is Kotlin?</string>
+    <string name="kotlin_a_one">
         <ul>
-            <li>Introduction to Kotlin!\n</li>
-            \n•<li>What is Kotlin?\n</li>
-            \n•<li>Is there any prior experience needed for Kotlin?\n</li>
-            \n•<li>How can I get started on Kotlin?.</li>
+            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
+            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources\n</li>
+            \n•<li>Last bullet</li>
+        </ul>
+    </string>
+    <string name="kotlin_q_two">Is there any prior experience needed for Kotlin?</string>
+    <string name="kotlin_a_two">
+        <ul>
+            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
+            \n•<li>Other bullet\n</li>
+            \n•<li>Last bullet</li>
+        </ul>
+    </string>
+    <string name="kotlin_q_three">How can I get started on Kotlin?</string>
+    <string name="kotlin_a_three">
+        <ul>
+            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
+            \n•<li>Other bullet\n</li>
+            \n•<li>Last bullet</li>
         </ul>
     </string>
 

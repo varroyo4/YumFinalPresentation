@@ -16,7 +16,7 @@ class LessonsOverviewAdapter(
 ) : RecyclerView.Adapter<LessonsOverviewAdapter.LessonViewHolder>() {
 
     private lateinit var binding: ItemLessonBinding
-
+    // each lesson, 
     class LessonViewHolder(private val binding: ItemLessonBinding) : RecyclerView.ViewHolder(binding.root) {
         val textView: TextView = binding.lessonTitle
         val imageView: ImageView = binding.lessonImage
@@ -30,7 +30,7 @@ class LessonsOverviewAdapter(
 
     override fun onBindViewHolder(holder: LessonViewHolder, position: Int) {
         val currentLesson = lessonsArr[position]
-        holder.textView.text = context.resources.getString(currentLesson.lessonCaption)
+        holder.textView.text = context.resources.getString(currentLesson.lessonTitle)
         holder.imageView.setImageResource(currentLesson.lessonImage)
         holder.button.setOnClickListener {
             val action =

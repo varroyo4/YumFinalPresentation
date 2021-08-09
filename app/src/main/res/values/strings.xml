@@ -4,7 +4,7 @@
 
     <!-- intro about me as slide, project, going over what im going to go over, maybe its on github and power-->
     <!-- Presentation -->
-    <string name="presentation_intro"> Welcome to the [POS]seidon team!</string>
+    <string name="presentation_intro"> Welcome to the [POS]eidon team!</string>
     <string name="presentation_self_intro"> Who am I?</string>
     <string name="presentation_android"> Android!</string>
     <string name="presentation_kotlin"> Kotlin!</string>
@@ -35,101 +35,142 @@
                 <li>I will be going into my senior year, graduating Fall 2022.\n</li>
             \n•<li>I study computer Engineering and Computer Science.\n</li>
             \n•<li>I live in Chicago!\n</li>
-            \n•<li>I love to go the gym, play on a Esports Team for a video game called Valorant and love to play guitar here and there!\n</li>
+            \n•<li>I love to go the gym, play on a Esports Team for a video game called Valorant and love to play guitar here and there!</li>
         </ul>
     </string>
 
-    <!-- https://www.androidauthority.com/what-is-android-328076/ -->
     <string name="android_q_one">What is android?</string>
     <string name="android_a_one">
         <ul>
-            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
-            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>An operation system that lets a device and an end user to be able to interact with one another.\n</li>
+            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources.</li>
         </ul>
     </string>
     <string name="android_q_two">What can we build with android?</string>
     <string name="android_a_two">
         <ul>
-            \n•<li>Billions of devices around the world are being powered by Android, from smartphones, watches, tablets and more!\n</li>
-            \n•<li>Other bullet\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>Billions of devices around the world are being powered by the Android OS, from smartphones, watches, tablets and more!\n</li>
+            \n•<li>In more structured environments, you are able to expand these devices and create something such as our POS which I will get into later.</li>
         </ul>
     </string>
     <string name="android_q_three">How to get started on android!</string>
     <string name="android_a_three">
         <ul>
             \n•<li>You can get started on using the Android OS by installing Android Studio, an IDE that allows you to use kotlin to code and use android.\n</li>
-            \n•<li>Other bullet\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>Developer.android.com has many resources to begin!</li>
         </ul>
     </string>
 
 
-    <string name="kotlin_title">
-        <ul>
-            <li>Introduction to Kotlin!\n</li>
-            \n•<li>What is android?\n</li>
-                        \n<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
-            \n•<li>What can we build with android?\n</li>
-            \n•<li>How to get started on android!</li>
-        </ul>
-    </string>
+    <!-- https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages -->
     <string name="kotlin_q_one">What is Kotlin?</string>
     <string name="kotlin_a_one">
         <ul>
-            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
-            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>Kotlin is a statically typed programming language that started its development in 2010.\n</li>
+            \n•<li>In 2017, Kotlin was announced to be the official language for Android!</li>
         </ul>
     </string>
     <string name="kotlin_q_two">Is there any prior experience needed for Kotlin?</string>
     <string name="kotlin_a_two">
         <ul>
-            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
-            \n•<li>Other bullet\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>If you are a Java developer, you are in for a joy ride!\n</li>
+            \n•<li>There are various resources to learn Kotlin, no prior experience necessary just as learning any new language.</li>
         </ul>
     </string>
     <string name="kotlin_q_three">How can I get started on Kotlin?</string>
     <string name="kotlin_a_three">
         <ul>
-            \n•<li>An operation system that lets a device and an end user to be able to interact with one another\n</li>
-            \n•<li>Other bullet\n</li>
-            \n•<li>Last bullet</li>
+            \n•<li>Thankfully, Kotlins developers have been so kind in providing various resources in starting!\n</li>
+            \n•<li>There is also an article for the lazy Java developer byRenaud Cerrato.</li>
         </ul>
     </string>
 
-    <string name="presentation_xml_details">
+    <!-- https://www.learnhowtoprogram.com/android/introduction-to-android/introduction-to-xml-and-android-layouts#:~:text=eXtensible%20Markup%20Language%2C%20or%20XML,be%20closed%2C%20and%20preserves%20whitespace. -->
+    <string name="xml_q_one">What is XML?</string>
+    <string name="xml_a_one">
         <ul>
-            <li>Introduction to my POS internship!\n</li>
-            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
-                get a first look at our the new system for Taco Bell.\n</li>
-            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
-            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+            \n•<li>XML stands for eXtensible Markup Language\n</li>
+            \n•<li>Allows you to describe data, in the case of Android, layouts!</li>
         </ul>
     </string>
-
-    <string name="presentation_binding_details">
+    <string name="xml_q_two">Where does XML come into play for Android?</string>
+    <string name="xml_a_two">
         <ul>
-            <li>Introduction to my POS internship!\n</li>
-            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
-                get a first look at our the new system for Taco Bell.\n</li>
-            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
-            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+            \n•<li>As mentioned above, XML allows us to create layouts for Android, a sort of UI interface!\n</li>
+            \n•<li>There are various resources to learn Kotlin, no prior experience necessary just as learning any new language.</li>
         </ul>
     </string>
-
-    <string name="presentation_git_details">
+    <string name="xml_q_three">How can I get started on learning XML?</string>
+    <string name="xml_a_three">
         <ul>
-            <li>Introduction to my POS internship!\n</li>
-            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
-                get a first look at our the new system for Taco Bell.\n</li>
-            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
-            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+            \n•<li>Specifically for Android learning, XML can be learned from various sources, one being LinkedIn!\n</li>
+            \n•<li>Androids website also includes many videos and guides for the introduction to using XML for Android layouts!</li>
         </ul>
     </string>
 
+    <!-- view binding -->
+    <string name="binding_q_one">What is View Binding?</string>
+    <string name="binding_a_one">
+        <ul>
+            \n•<li>For some context, Android allows the user to interact between Kotlin or Java code and XML.\n</li>
+            \n•<li>Before, developers used Kotlin synthetics and Java butter-knife, now we have View Binding!</li>
+        </ul>
+    </string>
+    <string name="binding_q_two">Why is View Binding superior?</string>
+    <string name="binding_a_two">
+        <ul>
+            \n•<li>View Binding allows for easier code to be written for interaction between views.\n</li>
+            \n•<li>Allows for safer way to reference XML layout views.</li>
+        </ul>
+    </string>
+    <string name="binding_q_three">How can I get started on implementing it correctly?</string>
+    <string name="binding_a_three">
+        <ul>
+            \n•<li>To enable View Binding, when you have built your Android environment, you would add !\n</li>
+            android {\n
+                ___viewBinding {\n
+                    ___enabled = true\n
+                ___}\n
+            }\n
+            \n•<li>Once enabled, each xml file has a View Binding class created, which has a reference to each view for you to access and create events for.</li>
+        </ul>
+    </string>
+
+    <!-- git -->
+    <string name="git_q_one">What is Git?</string>
+    <string name="git_a_one">
+        <ul>
+            \n•<li>Git is a software that allows for tracking of changes in any sets of files, usually used to
+            collaborate among other software developers.\n</li>
+        </ul>
+    </string>
+    <string name="git_q_two">What is a repository?</string>
+    <string name="git_a_two">
+        <ul>
+            \n•<li>You have possibly heard of a repo which is short of repository.!\n</li>
+            \n•<li>There are 2 types of repos, one being the remote repo.</li>
+            \n•<li>The remote repo is where code is stored on a code hosting service, Yum uses Gitlab or you may have also heard of Github!</li>
+            \n•<li>The local repo is where you have a copy of the remote repo locally on your machine, any changes made in the local repo will not affect the remote one.</li>
+
+        </ul>
+    </string>
+    <string name="git_q_three">How do the remote and local repo interact?</string>
+    <string name="git_a_three">
+        <ul>
+            \n•<li>To save any changes made on your local repo to the remote one, you need to commit your changes, which will save changes to the local repo.\n</li>
+            \n•<li>To then save those changes onto the remote repo, you need to push your changes, which will save changes to the remote repo.\n</li>
+        </ul>
+    </string>
+    <string name="git_q_four">What other terms are there in Git?</string>
+    <string name="git_a_four">
+        <ul>
+            \n•<li>In Git, we also have branches and developing in branches and the interaction between branches, such as merging a branch, pulling a branch or rebasing\n</li>
+            \n•<li>For the sake of time, we wont go over it, but will link a confluence power point made by my mentor, Erica, which explains everything in detail!\n</li>
+
+        </ul>
+    </string>
+
+    <!-- jira agile -->
     <string name="presentation_jira_agile_details">
         <ul>
             <li>Introduction to my POS internship!\n</li>
@@ -140,6 +181,7 @@
         </ul>
     </string>
 
+    <!-- architecture -->
     <string name="presentation_architecture_details">
         <ul>
             <li>Introduction to my POS internship!\n</li>
@@ -150,6 +192,7 @@
         </ul>
     </string>
 
+    <!-- pos -->
     <string name="presentation_pos_details">
         <ul>
             <li>Introduction to my POS internship!\n</li>

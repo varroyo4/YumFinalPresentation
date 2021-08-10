@@ -21,43 +21,41 @@
     <string name="intro_title">Introduction to my POS internship!</string>
     <string name="intro_answer">
         <ul>
-            \n•<li>For the past 2 months and a half, I have been given the opportunity to be a part of the POS team and
-                get a first look at our the new system for Taco Bell.\n</li>
-            \n•<li>I have had the opportunity to learn about Android, Git, Kotlin and much more!\n</li>
-            \n•<li>I want to introduce and teach you all quickly about all the things Ive learned so far.</li>
+            \n•<li>Had the chance to look at new POS system with Poseidon team\n</li>
+            \n•<li>Learned Android, Git, Kotlin and much more\n</li>
+            \n•<li>Intro to my learnings</li>
         </ul>
     </string>
 
     <string name="self_intro_title">My name is Valente Arroyo</string>
     <string name="self_intro_answer">
         <ul>
-            \n•<li>I attend the University of Wisconsin-Madison.\n</li>
-                <li>I will be going into my senior year, graduating Fall 2022.\n</li>
-            \n•<li>I study computer Engineering and Computer Science.\n</li>
-            \n•<li>I live in Chicago!\n</li>
-            \n•<li>I love to go the gym, play on a Esports Team for a video game called Valorant and love to play guitar here and there!</li>
+            \n•<li>I attend the University of Wisconsin-Madison\n</li>
+            \n•<li>I study Computer Engineering and Computer Science\n</li>
+            \n•<li>I live in Chicago\n</li>
+            \n•<li>I love to go the gym, I play on a Esports Team, play guitar</li>
         </ul>
     </string>
 
     <string name="android_q_one">What is android?</string>
     <string name="android_a_one">
         <ul>
-            \n•<li>An operation system that lets a device and an end user to be able to interact with one another.\n</li>
-            \n•<li>In case you did not know, an operating system is computer software that works to integrate hardware and software resources.</li>
+            \n•<li>Android is a mobile operating system that runs on linux!\n</li>
+            \n•<li>An operating system integrates hardware and software resources</li>
         </ul>
     </string>
     <string name="android_q_two">What can we build with android?</string>
     <string name="android_a_two">
         <ul>
-            \n•<li>Billions of devices around the world are being powered by the Android OS, from smartphones, watches, tablets and more!\n</li>
-            \n•<li>In more structured environments, you are able to utilize these devices and create something such as our POS which I will get into later.</li>
+            \n•<li>Smartphones, watches, tablets and more!\n</li>
+            \n•<li>Create something like the POS</li>
         </ul>
     </string>
     <string name="android_q_three">How to get started on android!</string>
     <string name="android_a_three">
         <ul>
-            \n•<li>You can get started on using the Android OS by installing Android Studio, an IDE that allows you to languages such as Kotlin and Java to code and use android.\n</li>
-            \n•<li>Developer.android.com has many resources to begin!</li>
+            \n•<li>Install Android Studio!\n</li>
+            \n•<li>Developer.android.com has many resources to begin</li>
         </ul>
     </string>
 
@@ -66,23 +64,23 @@
     <string name="kotlin_q_one">What is Kotlin?</string>
     <string name="kotlin_a_one">
         <ul>
-            \n•<li>Kotlin is a statically typed programming language that started its development in 2010.\n</li>
-            \n•<li>In 2017, Kotlin was announced to be an official language for Android!</li>
-            \n•<li>Since Kotlin boils down and compiles to the same JVM bytecode as Java, Kotlin and Java are easily interchangeable and allow for each language to interact with other!</li>
+            \n•<li>Statically typed programming language\nStarted development in 2010\n</li>
+            \n•<li>In 2017, Kotlin was announced to be an official language for Android!\n</li>
+            \n•<li>Kotlin and Java are easily interchangeable</li>
         </ul>
     </string>
     <string name="kotlin_q_two">Is there any prior experience needed for Kotlin?</string>
     <string name="kotlin_a_two">
         <ul>
             \n•<li>If you are a Java developer, you are in for a joy ride!\n</li>
-            \n•<li>There are various resources to learn Kotlin, no prior experience necessary just as learning any new language.</li>
+            \n•<li>No prior experience needed!</li>
         </ul>
     </string>
     <string name="kotlin_q_three">How can I get started on Kotlin?</string>
     <string name="kotlin_a_three">
         <ul>
             \n•<li>Thankfully, Kotlins developers have been so kind in providing various resources in starting!\n</li>
-            \n•<li>There is also an article for the lazy Java developer byRenaud Cerrato.</li>
+            \n•<li>Lazy Java developer by Renaud Cerrato.</li>
         </ul>
     </string>
 
@@ -97,15 +95,15 @@
     <string name="xml_q_two">Where does XML come into play for Android?</string>
     <string name="xml_a_two">
         <ul>
-            \n•<li>As mentioned above, XML allows us to create layouts for Android, a sort of UI interface!\n</li>
-            \n•<li>There are various resources to learn XML, no prior experience necessary just as learning any new language.</li>
+            \n•<li>Create layouts for Android, a sort of UI interface!\n</li>
+            \n•<li>The text you are reading now, colors of the text, images are all done in XML!</li>
         </ul>
     </string>
     <string name="xml_q_three">How can I get started on learning XML?</string>
     <string name="xml_a_three">
         <ul>
             \n•<li>Specifically for Android learning, XML can be learned from various sources, one being LinkedIn!\n</li>
-            \n•<li>Androids website also includes many videos and guides for the introduction to using XML for Android layouts!</li>
+            \n•<li>Androids website also includes many videos and resources for XML!</li>
         </ul>
     </string>
 
@@ -113,17 +111,17 @@
     <string name="binding_q_one">What is View Binding?</string>
     <string name="binding_a_one">
         <ul>
-            \n•<li>For some context, Android allows the user to interact between Kotlin or Java code and XML.\n</li>
+            \n•<li>Android allows the user to interact between Kotlin or Java code and XML.\n</li>
             \n•<li>Before, developers used Kotlin synthetics and the Butterknife library for Java, now we have View Binding!</li>
         </ul>
     </string>
     <string name="binding_q_two">Why is View Binding superior?</string>
     <string name="binding_a_two">
         <ul>
-            \n•<li>View Binding allows for easier code to be written for interaction between views.\n</li>
-            \n•<li>Allows for safer way to reference XML layout views.\n</li>
-            <li>For example in Kotlin synthetics, if you had 2 views named the same from 2 separate layout files, it would be difficult for the program to differentiate them.</li>
-            <li>In View Binding it creates a way for you to utilize the correct view being used. The binding object created allows you to reference the view that is tied with that layout file.</li>
+            \n•<li>View Binding allows for easier code to be written for interaction between views\n</li>
+            \n•<li>Allows for safer way to reference XML layout views\n</li>
+            \n•<li>In Kotlin synthetics, it gets difficult to differentiate views\n</li>
+            \n•<li>Creates a way for you to utilize the correct view being used</li>
         </ul>
     </string>
     <string name="binding_q_three">How can I get started on implementing it correctly?</string>
@@ -135,7 +133,7 @@
                     ___enabled = true\n
                 ___}\n
             }\n
-            \n•<li>Once enabled, each xml file has a View Binding class created, which has a reference to each view for you to access and create events for.</li>
+            \n•<li>Once enabled, each xml file has a View Binding class created</li>
         </ul>
     </string>
 
@@ -143,31 +141,30 @@
     <string name="git_q_one">What is Git?</string>
     <string name="git_a_one">
         <ul>
-            \n•<li>Git is a software that allows for tracking of changes in any sets of files, usually used to
-            collaborate among other software developers.\n</li>
+            \n•<li>Git is a software that allows for tracking of changes in any sets of files\n</li>
         </ul>
     </string>
     <string name="git_q_two">What is a repository?</string>
     <string name="git_a_two">
         <ul>
-            \n•<li>You have possibly heard of a repo which is short of repository.!\n</li>
-            \n•<li>There are 2 types of repos, one being the remote repo.</li>
-            \n•<li>The remote repo is where code is stored on a code hosting service, Yum uses Gitlab or you may have also heard of Github!</li>
-            \n•<li>The local repo is where you have a copy of the remote repo locally on your machine, any changes made in the local repo will not affect the remote one.</li>
+            \n•<li>You have possibly heard of a repo which is short of repository!\n</li>
+            \n•<li>There are 2 types of repos, one being the remote repo\n</li>
+            \n•<li>The remote repo is where code is stored on a code hosting service!\n</li>
+            \n•<li>The local repo is where you have a copy of the remote repo locally on your machine</li>
         </ul>
     </string>
     <string name="git_q_three">How do the remote and local repo interact?</string>
     <string name="git_a_three">
         <ul>
-            \n•<li>To save any changes made on your local repo, you need to first commit your changes locally.\n</li>
-            \n•<li>To then save those changes onto the remote repo, you need to push your changes, which will save changes to the remote repo.\n</li>
+            \n•<li>To save any changes made on your local repo, you need to first commit your changes locally\n</li>
+            \n•<li>To then save those changes onto the remote repo, you need to push your changes</li>
         </ul>
     </string>
     <string name="git_q_four">What other terms are there in Git?</string>
     <string name="git_a_four">
         <ul>
-            \n•<li>In Git, we also have branches and developing in branches and the interaction between branches, such as merging a branch, pulling a branch or rebasing\n</li>
-            \n•<li>For the sake of time, we wont go over it, but will link a confluence power point made by my mentor, Erica, which explains everything in detail!\n</li>
+            \n•<li>In Git, we also have branches and developing in branches\n</li>
+            \n•<li>Will link a confluence power point made by my mentor, Erica, which explains everything in detail!\n</li>
         </ul>
     </string>
 
@@ -175,16 +172,15 @@
     <string name="jira_q_one">What is Jira?</string>
     <string name="jira_a_one">
         <ul>
-            \n•<li>Jira is a tool that helps teams work together in a collaborative environment such as agile development.\n</li>
-            \n•<li>Jira allows you to track tickets and issues, create roadmaps, and integrate many development tools!\n</li>
-            \n•<li>More specifically, we can have tickets for features and bugfixes with information such as the ticket status, who created/reported the issues, and how long we expect the ticket to take, etc.</li>
+            \n•<li>Jira is a tool that helps teams work together in a collaborative environment such as agile development\n</li>
+            \n•<li>Track tickets and issues, create roadmaps, and integrate many development tools!\n</li>
         </ul>
     </string>
     <string name="jira_q_two">What is agile development?</string>
     <string name="jira_a_two">
         <ul>
-            \n•<li>Agile development is a framework in which developers will practice, that allows them to work in an environment to solve solutions in the form of sprints!\n</li>
-            \n•<li>For Poseidon, we work in weeks of 3, which is a time frame in which we get an amount of work done by the next sprint.</li>
+            \n•<li>Agile development is a framework that practices solving solutions in the form of sprints!\n</li>
+            \n•<li>For Poseidon, we work in weeks of 3, which is a time frame in which we get an amount of work done by the next sprint</li>
         </ul>
     </string>
 
@@ -192,18 +188,18 @@
     <string name="mvvm_q_one">Software architecture patters</string>
     <string name="mvvm_a_one">
         <ul>
-            \n•<li>There are multiple ways in which we can structure our code, some that have been put in place and developed over time.\n</li>
-            \n•<li>Some common architecture patterns in software development are Model-View-Controller(MVC), Model-View-Presenter(MVP), Model-View-ViewModel(MVVM), and Model-View-Intent(MVI).\n</li>
+            \n•<li>There are multiple ways in which we can structure our code, some that have been put in place and developed over time\n</li>
+            \n•<li>Model-View-Controller (MVC) \n•Model-View-Presenter (MVP) \n•Model-View-ViewModel (MVVM) \n•Model-View-Intent(MVI)\n</li>
         </ul>
     </string>
     <string name="mvvm_q_two">Poseidons use of MVP and MVVM, what are models and views?</string>
     <string name="mvvm_a_two">
         <ul>
-            \n•<li>A model is a layer of data or information of the software.\n</li>
-            \n•<li>A view is a class that displays visual elements on the screen.\n</li>
-            \n•<li>MVP is where we have a Presenter be able to communicate with a model and a view, however, the model and view do not know of each other. The presenter is a bridge that handles communication of what can get displayed on the screen.\n</li>
-            \n•<li>MVVM is where the model and view have the same responsibilities as described above, now we have a ViewModel that is the brains and the logic of the interface.\n</li>
-            \n•<li>The difference between the Presenter in MVP vs the ViewModel in MVVM is that the Presenter becomes the brain for a single view, ViewModel is able to communicate to multiple views if needed.\n</li>
+            \n•<li>A model is a layer of data or information of the software\n</li>
+            \n•<li>A view is a class that displays visual elements on the screen\n</li>
+            \n•<li>MVP is where we have a Presenter be able to communicate with a model and a view\n</li>
+            \n•<li>MVVM has a ViewModel instead of a presenter that is the brains and the logic of the interface\n</li>
+            \n•<li>Presenter in MVP vs the ViewModel in MVVM\n</li>
         </ul>
     </string>
 
@@ -217,15 +213,15 @@
     <string name="pos_q_two">Poseidons creation of a new POS</string>
     <string name="pos_a_two">
         <ul>
-            \n•<li>For now, our focus has been Taco Bell to convert their Xenial system to a new system that allows an easier experience for the service champion, the employees taking customer orders.\n</li>
-            \n•<li>We are making this new one because it would create easier experiences for the service champion, easy to deploy on Android tablets, and we would not have to then rely on outside companies to supply our POS systems.\n</li>
+            \n•<li>Focus has been on Taco Bell to convert their Xenial system to a new system that allows an easier experience\n</li>
+            \n•<li>Creates easier experiences for the service champion, easy to deploy on Android tablets, and we would not have to then rely on outside companies to supply our POS systems.\n</li>
         </ul>
     </string>
     <string name="pos_q_three">Will we create the same sort of POS for other brands?</string>
     <string name="pos_a_three">
         <ul>
-            \n•<li>To be able to eventually launch this POS to other brands, we want to keep some implementations the same while also being flexible in what the other brand would want for customization.\n</li>
-            \n•<li>We would want to keep menu, payment, employee services and others to be flexible across brands.\n</li>
+            \n•<li>Want to keep some implementations the same while also being flexible in customization\n</li>
+            \n•<li>Want to keep menu, payment, employee services and others to be flexible across brands\n</li>
             \n•<li>We would then be able to create brand specific modules that is easily implemented with Yums shared modules.\n</li>
         </ul>
     </string>

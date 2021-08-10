@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/djone/AndroidStudioProjects/FinalPresentation/app/src/main/res/layout/details_recyclerview.xml" value="0.25" />
         <entry key="..\:/Users/djone/AndroidStudioProjects/FinalPresentation/app/src/main/res/layout/item_lesson.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/djone/AndroidStudioProjects/FinalPresentation/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31666666666666665" />
         <entry key="..\:/Users/djone/AndroidStudioProjects/FinalPresentation/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.34479166666666666" />

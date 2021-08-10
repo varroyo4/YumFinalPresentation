@@ -57,25 +57,23 @@ class DetailsProvider {
 
     fun loadJiraQuestions(): List<LessonDetailQuestion> {
         return listOf(
-            LessonDetailQuestion(R.string.intro_title, R.string.intro_answer),
-            LessonDetailQuestion(R.string.self_intro_title, R.string.self_intro_answer),
-            LessonDetailQuestion(R.string.android_q_one, R.string.android_a_one)
+            LessonDetailQuestion(R.string.jira_q_one, R.string.jira_a_one),
+            LessonDetailQuestion(R.string.jira_q_two, R.string.jira_a_two)
         )
     }
 
     fun loadMVVMQuestions(): List<LessonDetailQuestion> {
         return listOf(
-            LessonDetailQuestion(R.string.intro_title, R.string.intro_answer),
-            LessonDetailQuestion(R.string.self_intro_title, R.string.self_intro_answer),
-            LessonDetailQuestion(R.string.android_q_one, R.string.android_a_one)
+            LessonDetailQuestion(R.string.mvvm_q_one, R.string.mvvm_a_one),
+            LessonDetailQuestion(R.string.mvvm_q_two, R.string.mvvm_a_two)
         )
     }
 
     fun loadPOSQuestions(): List<LessonDetailQuestion> {
         return listOf(
-            LessonDetailQuestion(R.string.intro_title, R.string.intro_answer),
-            LessonDetailQuestion(R.string.self_intro_title, R.string.self_intro_answer),
-            LessonDetailQuestion(R.string.android_q_one, R.string.android_a_one)
+            LessonDetailQuestion(R.string.pos_q_one, R.string.pos_a_one),
+            LessonDetailQuestion(R.string.pos_q_two, R.string.pos_a_two),
+            LessonDetailQuestion(R.string.pos_q_three, R.string.pos_a_three)
         )
     }
 }

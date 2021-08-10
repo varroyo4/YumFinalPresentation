@@ -12,7 +12,7 @@ class LessonsProvider {
             Lesson(R.string.presentation_xml, R.drawable.xml_presentation,R.drawable.xml_android, DetailsProvider().loadXMLQuestions()),
             Lesson(R.string.presentation_architecture, R.drawable.mvmpattern,R.drawable.user_mvvm, DetailsProvider().loadMVVMQuestions()),
             Lesson(R.string.presentation_binding, R.drawable.view_binding,R.drawable.view_binding_details, DetailsProvider().loadBindingQuestions()),
-            Lesson(R.string.presentation_pos, R.drawable.yum_dev_white, R.drawable.yum_dev, DetailsProvider().loadPOSQuestions())
+            Lesson(R.string.presentation_pos, R.drawable.yum_dev_white, R.drawable.img_9963, DetailsProvider().loadPOSQuestions())
         )
     }
 

@@ -176,15 +176,15 @@
     <string name="jira_a_one">
         <ul>
             \n•<li>Jira is a tool that helps teams work together in a collaborative environment such as agile development.\n</li>
-            \n•<li>Jira allows you to track tickets and issues, create roadmaps, and  integrate many development tools!\n</li>
-            \n•<li>More specifically, we can have tickets for features and bugfixes with information such as the ticket status, who created/reported the issues, how long we expect the ticket to take, etc.</li>
+            \n•<li>Jira allows you to track tickets and issues, create roadmaps, and integrate many development tools!\n</li>
+            \n•<li>More specifically, we can have tickets for features and bugfixes with information such as the ticket status, who created/reported the issues, and how long we expect the ticket to take, etc.</li>
         </ul>
     </string>
     <string name="jira_q_two">What is agile development?</string>
     <string name="jira_a_two">
         <ul>
-            \n•<li>Agile development is a framework in which developers will practice that allows them to work in an environment to solve solutions in the form of sprints!\n</li>
-            \n•<li>For Poseidon, we work in weeks of 3, which is a time frame where we get an amount of work done by the next sprint.</li>
+            \n•<li>Agile development is a framework in which developers will practice, that allows them to work in an environment to solve solutions in the form of sprints!\n</li>
+            \n•<li>For Poseidon, we work in weeks of 3, which is a time frame in which we get an amount of work done by the next sprint.</li>
         </ul>
     </string>
 
@@ -196,13 +196,14 @@
             \n•<li>Some common architecture patterns in software development are Model-View-Controller(MVC), Model-View-Presenter(MVP), Model-View-ViewModel(MVVM), and Model-View-Intent(MVI).\n</li>
         </ul>
     </string>
-    <string name="mvvm_q_two">Poseidons use of MVM and MVVM, what are models and views?</string>
+    <string name="mvvm_q_two">Poseidons use of MVP and MVVM, what are models and views?</string>
     <string name="mvvm_a_two">
         <ul>
             \n•<li>A model is a layer of data or information of the software.\n</li>
             \n•<li>A view is a class that displays visual elements on the screen.\n</li>
-            \n•<li>MVP is where we have a Presenter be able to communicate with a model and a view, however, the model and view. The presenter is a bridge that handles communication of what can get displayed on the screen.\n</li>
+            \n•<li>MVP is where we have a Presenter be able to communicate with a model and a view, however, the model and view do not know of each other. The presenter is a bridge that handles communication of what can get displayed on the screen.\n</li>
             \n•<li>MVVM is where the model and view have the same responsibilities as described above, now we have a ViewModel that is the brains and the logic of the interface.\n</li>
+            \n•<li>The difference between the Presenter in MVP vs the ViewModel in MVVM is that the Presenter becomes the brain for a single view, ViewModel is able to communicate to multiple views if needed.\n</li>
         </ul>
     </string>
 
